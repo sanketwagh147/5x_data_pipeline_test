@@ -1,10 +1,10 @@
 version: 2
 
-
+models:
   - name: main
-    columns:
+    description: talbe for google dashboard
+    columns: 
       - name: province
-        description: Name of the province
+        description: contains province details
         tests:
           - not_null
-        
