@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: GOOGLE_SHEETS
+    database: FIVETRAN_INTERVIEW_DB
+    description: Connected to google sheets data
+    tables:
+      - name: COVID_19_INDONESIA_SANKET_WAGH
+        description: Individual file for covid_19 data for sanket wagh

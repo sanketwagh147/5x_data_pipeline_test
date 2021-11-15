@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: total_cases_by_province
+    columns:
+      - name: province
+        description: Name of the province
+        tests:
+          - unique
+          - not_null
+      - name: total_cases
+        tests:
+        description: Total cases in each of the province
+          - not_null
